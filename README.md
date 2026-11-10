@@ -9,6 +9,15 @@ combiné d'instruments) est un modem 2G/3G. Les réseaux 2G/3G ont été fermés
 peut plus parler à personne, avec ou sans app. VW n'offre aucun module 4G de remplacement pour
 l'e-Golf. Selon des propriétaires, Car-Net n'aurait même jamais été offert sur les e-Golf canadiens.
 
+### Cas canadien (à vérifier sur l'auto)
+
+D'après les forums, les e-Golf canadiens n'avaient ni Car-Net ni module télématique. Car-Net
+(4G) arrive au Canada seulement avec l'année-modèle 2020 (communiqué VW Canada, septembre 2019).
+Les ensembles d'options (Driver Assistance, Technology) n'ajoutent pas de modem.
+Pour vérifier : scan OBDeleven ou VCDS et chercher le module **75 Telematics**, ou regarder
+derrière le combiné d'instruments. S'il n'y a pas d'OCU, on se branche ailleurs sur le bus
+confort : même fils orange/vert et orange/brun, sans prise toute faite.
+
 ## La solution : remplacer le modem mort par un ESP32
 
 L'OCU envoyait simplement des messages sur le **bus CAN confort** pour réveiller l'auto et lancer la
